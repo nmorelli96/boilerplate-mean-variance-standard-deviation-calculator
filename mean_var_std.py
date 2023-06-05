@@ -13,5 +13,3 @@ def calculate(list):
         'sum': [matrix.sum(axis=0).tolist(), matrix.sum(axis=1).tolist(), matrix.sum()],
     }
     return container
-
-print(calculate([0,1,2,3,4,5,6,7,8]))
